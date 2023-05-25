@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn-submit {
+  background-color: #120032 !important;
+  border-color: #120032 !important;
+}
+
+.btn-edit {
+  background-color: #cb910d !important;
+  border-color: #cb910d !important;
+}
+
+.btn-delete {
+  background-color: #bb2518 !important;
+  border-color: #bb2518 !important;
+}

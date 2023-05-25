@@ -7,6 +7,9 @@ import {AppComponent} from './app.component';
 import {ButtonModule} from "primeng/button";
 import {DialogModule} from "primeng/dialog";
 import { HomeComponent } from './components/home/home.component';
+import {ToastModule} from "primeng/toast";
+import {ToolbarModule} from "primeng/toolbar";
+import {TableModule} from "primeng/table";
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HomeComponent } from './components/home/home.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     ButtonModule,
-    DialogModule
+    DialogModule,
+    ToastModule,
+    ToolbarModule,
+    TableModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
